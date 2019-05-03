@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=8">
+	</head>
+	<body>
+		<p>
+			Current docmode: <script>document.write(document.documentMode);</script>
+		</p>
+		<p>
+			<h3>nested WebOC (html)</h3>
+			<pre>&lt;object data="https://mixed-script.badssl.com/"&gt;&lt;/object&gt;</pre>
+			<object width="500" height="500" data="https://mixed-script.badssl.com"></object>
+		</p>
+		<p>
+			<h3>iframe (html)</h3>
+			<pre>&lt;iframe src="https://mixed-script.badssl.com"&gt;&lt;/iframe&gt;</pre>
+			<iframe src="https://mixed-script.badssl.com/"></iframe>
+		</p>
+	</body>
+</html>
